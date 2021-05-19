@@ -14,6 +14,9 @@ public class Triangulo {
 		
 		double hipotenusa;
 		
+		
+		//Entrada de dados
+		
 		System.out.println("Informe o valor do cateto1: ");
 		float cateto1 = in.nextFloat();
 		
@@ -21,7 +24,7 @@ public class Triangulo {
 		float cateto2 = in.nextFloat();
 		
 		
-		
+		//Processamento de dados
 		hipotenusa = Math.sqrt(Math.pow(cateto1,2)+ (Math.pow(cateto2,2)));
 		//A Raíz quadrada Math.sqrt
 		//Math.pow eleva um numero a outro

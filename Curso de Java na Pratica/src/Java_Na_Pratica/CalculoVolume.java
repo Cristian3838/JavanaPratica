@@ -5,7 +5,7 @@ import java.util.*;
 //se o volume for divisível por 5, então calcula a raíz quadrada, e exibe o valor aredondado, se não
 //exibe o valor fazendo um casting explícito.
 
-public class calculoVolume {
+public class CalculoVolume {
 
 	public static void main(String[] args) {
 		

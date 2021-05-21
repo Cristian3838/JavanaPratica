@@ -6,7 +6,7 @@ import java.util.*;
 //Faça um programa que exiba um texto, informado pelo usuário, 20 vezes e informando a quantidade
 //de caracteres do texto. Faça um versão com while e outra com for.
 
-public class repeteTexto {
+public class RepeteTexto {
 
 	public static void main(String[] args) {
 		

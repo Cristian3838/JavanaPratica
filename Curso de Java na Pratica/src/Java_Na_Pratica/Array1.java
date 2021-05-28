@@ -35,8 +35,8 @@ public class Array1 {
 					System.out.print(vetor[i]+ " ");// Quando não tem o ln(do print) exibe os elementos na horizontal separado
 					//por um espeço em branco
 					contador++; //incrementa somente com números pares
-				}//Fim do laço for	
-		}
+				}
+		}//Fim do laço for	
 	
 			
 			

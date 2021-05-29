@@ -46,11 +46,11 @@ public class Criptografia {
     public String descriptografar(String mensagem, int valcifra) {
     	
      int y = mensagem.length();
-      String aux = " ";
+      String aux = "";
     	     
        for(int i = 0; i < y; i++) {
     		   
-        aux = aux + (char)(mensagem.charAt(i)+ valcifra);
+        aux = aux + (char)(mensagem.charAt(i)-valcifra);
     	 //charAt retorna o valor da posição no caso (i)
    		  //mensagem (texto passado com parâmetro)
    	       //(char) casting explícito, vai acumulando os caracteres

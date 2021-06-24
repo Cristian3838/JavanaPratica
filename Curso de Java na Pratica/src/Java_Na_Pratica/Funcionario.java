@@ -5,6 +5,8 @@ public class Funcionario extends AppSalario{
 	
 	String nome;
 	double salario;
+	double bonus;
+	double descontoAdicional;
 	
 	
 	/*public void recuperaSalario()*/ 

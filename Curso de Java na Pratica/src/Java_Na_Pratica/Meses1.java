@@ -15,11 +15,11 @@ public class Meses1 {
 		//Declaração de variáveis
 		int diaMês; // Declaração de variáveis
 		String nomeMês;// Declaração de variáveis
-		
+		int mês;
 		
 		
 		System.out.println("Digite um mês do ano de 1 - 12: ");
-		int mês = in.nextInt();// Armazena a variavel digitada
+		mês = in.nextInt();// Armazena a variavel digitada
 		
 		
 		

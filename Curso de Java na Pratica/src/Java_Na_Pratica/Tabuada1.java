@@ -15,7 +15,7 @@ public class Tabuada1 {
 		while(numero<=limite) {
 			
 			
-			System.out.println("O Valor da tabuada é: "+numero*3);
+			System.out.println("O Valor da tabuada é: "+numero*5);
 			numero++;
 			
 			

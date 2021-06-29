@@ -8,11 +8,11 @@ public class AppAnimais {
 		Animal animal = new Animal();
 		
 		
-		Cao cao = new Cao();
-		cao.latir();
+		Cao cao = new Cao();//Criado o objeto cão
+		cao.latir(); 
 		cao.correr();
-		cao.setCor("Branco");
-		System.out.println("O Cão é da cor "+cao.getCor());
+		cao.setCor("Branco");//Comando para configurar uma cor para o animal.
+		System.out.println("O Cão é da cor "+cao.getCor());// Comando que retorna uma cor para o animal.
 		
         
         Passaro passaro = new Passaro();

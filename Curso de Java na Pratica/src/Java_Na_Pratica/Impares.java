@@ -1,6 +1,7 @@
 package Java_Na_Pratica;
 import java.util.*;
 
+
 public class Impares {
 
 	public static void main(String[] args) {

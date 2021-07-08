@@ -7,13 +7,14 @@ public class Menu {
 		
 		
 		Scanner in = new Scanner(System.in);
-		int menu = 0;
-		menu = in.nextInt();
+		
 		
 		System.out.println("Escolha o menu de opções abaixo!");
 		System.out.println("1 - NetFlix, 2 - HBO, 3 - Amazon Prime, 4 - Sair do sistema.");
 		System.out.println("Qual sua escolha: ");
 		
+		int menu = 0;
+		menu = in.nextInt();
 		
 		
 		switch(menu) {
